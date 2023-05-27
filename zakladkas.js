@@ -13,7 +13,7 @@ for (let i = 0; i < 10; i++) {
   } else {
     izvele = "nelikt";
     console.log(izvele);
-    document.write("<p>" + "• " + izvele + "</p>");
+    document.write("<h2>" + "• " + izvele + "</h2>");
   }
 
   const vietas = ["A", "B", "C", "D", "E", "F", "G"];
@@ -21,7 +21,7 @@ for (let i = 0; i < 10; i++) {
     const vieta = getRandomItem(vietas);
     const teksts = "liec vietā " + vieta;
     console.log(teksts);
-    document.write("<p>" + "• " + teksts + "</p>");
+    document.write("<h2>" + "• " + teksts + "</h2>");
   }
 }
     
