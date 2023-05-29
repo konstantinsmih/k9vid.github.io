@@ -1,12 +1,20 @@
 body {
-  background-color: #5c8984;
+  background-color: #393646;
+  text-align: center;
+}
+
+div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  width: auto;
+  height: auto;
 }
 
 p {
-  color: #f2d8d8;
-  font-size: 12vw;
-  text-align: center;
-  font-weight: bold;
-
+  color: #f4eee0;
+  font-size: calc(15px + 0.390625vw);
+  padding: calc(8px + 1.5625vw);
 }
-
