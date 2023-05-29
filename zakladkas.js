@@ -19,7 +19,7 @@ for (let i = 0; i < 1; i++) {
     "virsbūves priekšā",
     "virsbūves labajā sānā",
     "virsbūves kreisajā sānā",
-    "virsbūves azimugurē",
+    "virsbūves aizmugurē",
     "zem transporta",
     "salona priekšā šofera pusē",
     "salona aizmugurē šofera pusē",
