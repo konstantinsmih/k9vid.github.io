@@ -5,23 +5,28 @@ function getRandomItem(vietas) {
 }
 
 let str = "";
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 1; i++) {
   str = str + i;
   rezultats = Math.round(Math.random());
   if (rezultats == 1) {
     izvele = "likt";
   } else {
-    izvele = "nelikt";
+    izvele = "Šoreiz neliec";
     console.log(izvele);
-    document.write("<h1>" + "• " + izvele + "</h1>");
+    document.getElementById("result").innerHTML = izvele;
   }
 
-  const vietas = ["A", "B", "C", "D", "E", "F", "G"];
+  const vietas = [
+    "virsbūves priekšā",
+    "virsbūves labajā sānā",
+    "virsbūves kreisajā sānā",
+    "virsbūves azimugurē",
+    "zem transporta"
+  ];
   if (izvele == "likt") {
-    const vieta = getRandomItem(vietas);
-    const teksts = "liec vietā " + vieta;
+    vieta = getRandomItem(vietas);
+    teksts = "Liec " + vieta;
     console.log(teksts);
-    document.write("<h1>" + "• " + teksts + "</h1>");
+    document.getElementById("result").innerHTML = teksts;
   }
 }
-    
