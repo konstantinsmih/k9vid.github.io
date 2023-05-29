@@ -11,8 +11,7 @@ for (let i = 0; i < 1; i++) {
   if (rezultats == 1) {
     izvele = "likt";
   } else {
-    izvele = "Šoreiz neliec";
-    console.log(izvele);
+    izvele = "Šoreiz neliec.";
     document.getElementById("result").innerHTML = izvele;
   }
 
@@ -24,17 +23,13 @@ for (let i = 0; i < 1; i++) {
     "zem transporta",
     "salona priekšā šofera pusē",
     "salona aizmugurē šofera pusē",
-        "salona priekšā pasažiera pusē",
-
+    "salona priekšā pasažiera pusē",
     "salona aizmugurē pasažiera pusē",
-    
     "bagāžas nodalījumā"
-
   ];
   if (izvele == "likt") {
     vieta = getRandomItem(vietas);
     teksts = "Liec " + vieta;
-    console.log(teksts);
-    document.getElementById("result").innerHTML = teksts;
+    document.getElementById("result").innerHTML = teksts + ".";
   }
 }
