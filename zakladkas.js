@@ -11,29 +11,29 @@ for (let i = 0; i < 1; i++) {
   if (rezultats == 1) {
     izvele = "likt";
   } else {
-    izvele = "Šoreiz neliec.";
+    izvele = "Šoreiz slēpnis nav nepieciešams.";
     document.getElementById("result").innerHTML = izvele;
   }
  
   const vietas = [
-    "virsbūves priekšā",
-    "virsbūves labajā sānā",
-    "virsbūves kreisajā sānā",
-    "virsbūves aizmugurē",
-    "zem transporta",
-    "salona priekšā ap krēslu šofera pusē",
-    "salona priekšā panelī šofera pusē",
-    "salona aizmugurē šofera pusē",
-    "salona priekšā ap krēslu pasažiera pusē",
-    "salona priekšā panelī pasažiera pusē",
-    "salona aizmugurē pasažiera pusē",
-    "bagāžas nodalījumā",
-    "bagāžas nodalījuma durvīs no iekšpuses"
+    "Virsbūves priekšā",
+    "Virsbūves labajā sānā",
+    "Virsbūves kreisajā sānā",
+    "Virsbūves aizmugurē",
+    "Zem transporta",
+    "Salona priekšā ap krēslu šofera pusē",
+    "Salona priekšā panelī šofera pusē",
+    "Salona aizmugurē šofera pusē",
+    "Salona priekšā ap krēslu pasažiera pusē",
+    "Salona priekšā panelī pasažiera pusē",
+    "Salona aizmugurē pasažiera pusē",
+    "Bagāžas nodalījumā",
+    "Bagāžas nodalījuma durvīs no iekšpuses"
   ];
   if (izvele == "likt") {
     vieta = getRandomItem(vietas);
-    teksts = "Liec " + vieta;
-    document.getElementById("result").innerHTML = teksts + ".";
+    vieta;
+    document.getElementById("result").innerHTML = vieta + ".";
   }
 }
  
