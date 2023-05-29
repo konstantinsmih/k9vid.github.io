@@ -21,7 +21,12 @@ for (let i = 0; i < 1; i++) {
     "virsbūves labajā sānā",
     "virsbūves kreisajā sānā",
     "virsbūves azimugurē",
-    "zem transporta"
+    "zem transporta",
+    "salonā priekšā šofera pusē",
+    "salonā aizmugurē pasažiera pusē",
+    "salonā aizmugurē šofera pusē",
+    "bagāžas nodalījumā"
+
   ];
   if (izvele == "likt") {
     vieta = getRandomItem(vietas);
