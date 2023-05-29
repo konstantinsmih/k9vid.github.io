@@ -4,16 +4,12 @@ function getRandomItem(vietas) {
   return item;
 }
 
-let str = "";
-for (let i = 0; i < 1; i++) {
-  str = str + i;
   rezultats = Math.round(Math.random());
   if (rezultats == 1) {
     izvele = "likt";
   } else {
     izvele = "Šoreiz neliec.";
     document.getElementById("result").innerHTML = izvele;
-  }
 
   const vietas = [
     "virsbūves priekšā",
