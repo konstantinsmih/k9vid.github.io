@@ -1,6 +1,7 @@
 body {
   background-color: #393646;
   text-align: center;
+  color: #f4eee0;
 }
 
 div {
@@ -11,7 +12,6 @@ div {
   transform: translate(-50%, -50%);
 }
 
-p {
-  color: #f4eee0;
+#result {
   font-size: 8vw;
 }
