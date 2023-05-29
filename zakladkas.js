@@ -22,9 +22,12 @@ for (let i = 0; i < 1; i++) {
     "virsbūves kreisajā sānā",
     "virsbūves azimugurē",
     "zem transporta",
-    "salonā priekšā šofera pusē",
-    "salonā aizmugurē pasažiera pusē",
-    "salonā aizmugurē šofera pusē",
+    "salona priekšā šofera pusē",
+    "salona aizmugurē šofera pusē",
+        "salona priekšā pasažiera pusē",
+
+    "salona aizmugurē pasažiera pusē",
+    
     "bagāžas nodalījumā"
 
   ];
