@@ -1,7 +1,3 @@
-#result {
-  font-size: 12vw;
-}
-
 body {
   background-color: #393646;
   text-align: center;
@@ -14,4 +10,8 @@ div {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+#result {
+  font-size: 12vw;
 }
