@@ -2,12 +2,6 @@
   font-size: 12vw;
 }
 
-@media screen and (min-width: 800px) {
-  #result {
-    font-size: 3vw;
-  }
-}
-
 body {
   background-color: #393646;
   text-align: center;
