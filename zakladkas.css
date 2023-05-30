@@ -1,7 +1,8 @@
 body {
   background-color: #393646;
+  color: #393646;
+
   text-align: center;
-  color: #f4eee0;
 }
 
 div {
@@ -10,6 +11,10 @@ div {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+p {
+  color: #f4eee0;
 }
 
 @media screen and (min-width: 601px) {
