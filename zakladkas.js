@@ -9,7 +9,7 @@ document.getElementById("result").onclick = function () {
 };
 
 function reloadPage() {
-  document.getElementById("result").innerHTML = location.reload();
+  document.getElementById("lauks").innerHTML = location.reload();
 }
 
 let str = "";
