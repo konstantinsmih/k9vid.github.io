@@ -4,6 +4,14 @@ function getRandomItem(vietas) {
   return item;
 }
 
+document.getElementById("result").onclick = function () {
+  reloadPage();
+};
+
+function reloadPage() {
+  document.getElementById("result").innerHTML = location.reload();
+}
+
 let str = "";
 for (let i = 0; i < 1; i++) {
   str = str + i;
@@ -14,7 +22,7 @@ for (let i = 0; i < 1; i++) {
     izvele = "Šoreiz slēpnis nav nepieciešams.";
     document.getElementById("result").innerHTML = izvele;
   }
- 
+
   const vietas = [
     "Virsbūves priekšā",
     "Virsbūves labajā sānā",
@@ -32,9 +40,6 @@ for (let i = 0; i < 1; i++) {
   ];
   if (izvele == "likt") {
     vieta = getRandomItem(vietas);
-    vieta;
     document.getElementById("result").innerHTML = vieta + ".";
   }
 }
- 
-
